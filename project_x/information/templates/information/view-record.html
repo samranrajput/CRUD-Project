@@ -1,0 +1,29 @@
+{% extends "information/base.html" %}
+{% block content %}
+    <div class="card s9">
+        <div class="s4">
+            <strong>
+                <i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp;&nbsp;
+                {{record.first_name|upper}}
+                {{record.last_name|upper}}
+            <strong>
+        </div>
+        <hr>
+        <div class="card-body">
+            <p><strong>ID:</strong>&nbsp;&nbsp;&nbsp;&nbsp; {{record.id}}</p>
+            <p><strong>Email:</strong>&nbsp;&nbsp;&nbsp;&nbsp; {{record.email}}</p>
+            <p><strong>Phone number:</strong>&nbsp;&nbsp;&nbsp;&nbsp; {{record.phone}}</p>
+            <p><strong>Address:</strong>&nbsp;&nbsp;&nbsp;&nbsp; {{record.address}}</p>
+            <p><strong>City:</strong>&nbsp;&nbsp;&nbsp;&nbsp; {{record.city}}</p>
+            <p><strong>Province:</strong>&nbsp;&nbsp;&nbsp;&nbsp; {{record.province}}</p>
+            <p><strong>Country:</strong>&nbsp;&nbsp;&nbsp;&nbsp; {{record.country}}</p>
+            <p><strong>Creation date:</strong>&nbsp;&nbsp;&nbsp;&nbsp; {{record.creation_date}}</p>
+        </div>
+    </div>
+    <br>
+    <a href="{% url 'dashboard' %}" class="btn btn-outline-dark s7">Return&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="{% url 'update-record' record.id %}" class="btn btn-outline-info s8">Update record&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-plus" aria-hidden="true"></i></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="{% url 'delete-record' record.id %}" class="btn btn-outline-danger s5">Delete&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-minus-square" aria-hidden="true"></i></a>
+{% endblock  %}

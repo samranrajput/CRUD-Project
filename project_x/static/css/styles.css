@@ -1,0 +1,122 @@
+.shadow-mdp-5{
+    border-radius: 20px;
+    width: 500px;
+    /* height: 600px; */
+}
+.navbar-brand{
+    font-size: 30px;
+    color: black;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    font-size: 18px;
+    color: black;
+}
+.s1{
+    font-size: 40px;
+}
+.s2{
+    font-size: 25px;
+}
+.btn-outline-light{
+    height: 50px;
+    width: 240px;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    color: aqua;
+    outline: 1px solid aqua;
+}
+.btn-outline-light:hover{
+    color: black;
+    outline: 4px solid black;
+
+}
+.s3{
+    height: 45px;
+    width: 200px;
+    font-size: 16px;
+    padding-top: 7px;
+    border-radius: 10px;
+    color: aqua;
+}
+td{
+    border: 1px solid white;
+    padding: 8px;
+}
+th{
+    border: 1px solid white;
+    padding: 8px;
+}
+.s4{
+    text-align: center;
+    font-size: 30px;
+}
+.s5{
+    background-color: rgba(255, 0, 0, 0.589);
+    color: white;
+    outline: 2px solid red;
+    border-radius: 10px;
+}
+.s5:hover{
+    background-color: red;
+    color: black;
+}
+.s8{
+    background-color: blue;
+    color: white;
+    outline: 2px solid rgb(0, 119, 255);
+    border-radius: 10px;
+}
+.s8:hover{
+    background-color: rgb(0, 119, 255);
+    color: black;
+}
+.s7{
+    background-color: rgba(255, 255, 255, 0.274);
+    color: white;
+    outline: 2px solid black;
+    border-radius: 10px;
+}
+.s7:hover{
+    background-color: black;
+    color: white;
+}
+.s6{
+    outline: 2px solid white;
+}
+.s9{
+    outline: 2px solid white;
+}
+.s10{
+    outline: 2px solid white;
+    height: 145vh;
+    margin-bottom: 50px;
+}
+.s11{
+    outline: 2px solid white;
+    height: 70vh;
+    margin-bottom: 50px;
+}
+.s12{
+    background-color: rgba(255, 255, 255, 0.274);
+    color: white;
+    outline: 2px solid black;
+    border-radius: 10px;
+    height: 50px;
+    padding-top: 13px;
+    width: 150px;
+}
+.s12:hover{
+    background-color: black;
+    color: white;
+}
+.s13{
+    color: black;
+    margin-top: 7px;
+}
+.message-text{
+    color: black;
+}
